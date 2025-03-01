@@ -155,7 +155,7 @@ document
 
    const p = document.createElement('p');
    p.innerText = `
-     You Add Improve Job searching 
+     You Improve Job searching 
 
    `
    container.appendChild(p)
