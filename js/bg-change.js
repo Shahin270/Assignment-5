@@ -5,8 +5,9 @@ document
   document.body.style.backgroundColor =randomBgColor;
 })
 
-document
-.getElementById("desk")
-.addEventListener('click', function(){
-    alert()
-})
+function showTime() {
+  document.getElementById('time').innerHTML = new Date().toLocaleTimeString();
+}
+
+setInterval(showTime, 1000); 
+showTime();
